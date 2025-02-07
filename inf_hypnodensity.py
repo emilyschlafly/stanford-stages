@@ -18,11 +18,11 @@ import pyedflib
 import pywt  # wavelet entropy
 import scipy.io as sio  # for noise level
 import scipy.signal as signal  # for edf channel sampling and filtering
-import tensorflow as tf
+# import tensorflow as tf
 from scipy.fftpack import fft, ifft, irfft, fftshift
 
 from inf_config import ACConfig
-from inf_network import SCModel
+# from inf_network import SCModel
 from inf_tools import myprint
 
 # import pdb
